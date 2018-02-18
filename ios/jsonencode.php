@@ -2,10 +2,10 @@
     //open connection to mysql db
 
 
-    $servername = 'localhost';
-    $username = 'p13stav';
-    $password = 'FTWW45#$FC#tfgw345VW#$';
-    $dbname = 'p13stav';
+    $servername = '';
+    $username = '';
+    $password = '';
+    $dbname = '';
 
     // Create connection
     $connection = new mysqli($servername, $username, $password, $dbname);
