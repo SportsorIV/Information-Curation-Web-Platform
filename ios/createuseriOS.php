@@ -1,9 +1,9 @@
 <?php
 // Read request parameters
-$servername = 'localhost';
-$username = 'p13stav';
-$password = 'FTWW45#$FC#tfgw345VW#$';
-$dbname = 'p13stav';
+$servername = '';
+$username = '';
+$password = '';
+$dbname = '';
 
 $conn = new mysqli($servername, $username, $password, $dbname);
 //http://example.com/thisScript.php?jsonGiven=
