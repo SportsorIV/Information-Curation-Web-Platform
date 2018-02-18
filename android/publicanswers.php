@@ -2,7 +2,7 @@
     //open connection to mysql db
 
 
-    $connection = mysqli_connect('localhost','p13stav','FTWW45#$FC#tfgw345VW#$','p13stav') or die("Error " . mysqli_error($connection));
+    $connection = mysqli_connect('','','','') or die("Error " . mysqli_error($connection));
 
     //fetch table rows from mysql db
     $sql = "SELECT * FROM ANSWERS WHERE is_public = 'true' AND is_spam = 'false'";
